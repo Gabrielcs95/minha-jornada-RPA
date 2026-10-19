@@ -1,0 +1,10 @@
+{
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/scripts"
+    ],
+    "python.analysis.exclude": [
+        "**/__pycache__",
+        "**/data"
+    ],
+    "editor.formatOnSave": true
+}

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+.vscode/*
+!.vscode/settings.json
+
+# Generated files and local data
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+*.xlsx
+*.xls
+*.docx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
